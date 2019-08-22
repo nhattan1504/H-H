@@ -1,0 +1,11 @@
+
+CC=gcc
+TARGET=main
+OBJ= main.o sub_number.o sum_number.o
+DEPS=sub_number.h sum_number.h
+
+$(TARGER): $(OBJ)
+	$(CC) -o $@   $(OBJ)
+%.o: %.c   (DEPS)
+	$(CC) -c $<
+

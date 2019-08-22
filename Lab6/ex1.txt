@@ -1,0 +1,11 @@
+Giả sử trong tk bank của một cặp vợ chồng là 10000000đ
+Chồng gởi  vô tk 5000000đ
+Vợ rút từ tk 2000000đ
+TH1:
+-GỌi Lệnh deposit() nhưng dừng lệnh withdraw() cho đến khi kết thúc thì deposit()mới tiếp tục thì: TK là 15000000đ
+TH2:
+-GỌi lệnh withdraw() nhưng dừng lệnh deposit() cho đến khi kết thúc thì thì withdraw() mới tiếp tục thì: TK là 8000000đ
+TH3:
+-Gọi lệnh deposit() hoàn thành mới đến lệnh withdraw() TK 13000000đ
+TH4:
+-Gọi lệnh withdraw() hoàn thành mới đến lệnh deposit() TK 13000000đ

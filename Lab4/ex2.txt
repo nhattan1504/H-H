@@ -1,0 +1,6 @@
+
+Cau 1:
+Vài ví dụ điển hình như  khi chúng ta sử dụng dữ liệu có  cấu trúc SSE trên x86 do dữ liệu trên cấu trúc này  là bội số của 16 nên việc mallo như thế này là cần thiết.
+Còn khi việc cấp phát chỉ để sử dụng với một số thao tác thông thường như taọ mảng thì chúng ta chỉ nên sử dụng hàm malloc chuẩn của thư viện c.
+Câu 2: Làm thế nào để tăng size của heap khi 1 process đang chạy?
+Ta hãy  sử dụng các syscall như brk(), sbrk() để thay đổi size của heap
